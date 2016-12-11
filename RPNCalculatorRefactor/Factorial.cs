@@ -11,18 +11,19 @@ namespace RPNCalculatorRefactor
         public float Calculate(Stack<float> stack)
         {
             float input1 = stack.Pop();
-            return 2;
+            return CalculateFactorial(input1);
         }
 
         private float CalculateFactorial(float input)
         {
-            float number;
-            number = input;
-
-
-
-
-            return 0;
+            int number= (int)input;
+            int sum = number;
+            do
+            {
+                sum *= number - 1;
+                number--;
+            } while (number > 1);
+                return sum;
         }
     }
 }

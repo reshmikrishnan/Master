@@ -31,7 +31,7 @@ namespace RPNCalculatorRefactor
 
                     }
                 }
-                if (!isAnyOperation)
+                if (!isAnyOperation  || stack.Count>1)
                     throw new InvalidOperationException();
             }
             catch (InvalidOperationException op)
