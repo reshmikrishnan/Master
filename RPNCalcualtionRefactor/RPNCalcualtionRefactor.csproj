@@ -61,6 +61,7 @@
     <Compile Include="RPNCalculatorSubstractTest.cs" />
     <Compile Include="RPNCalculateMutiply.cs" />
     <Compile Include="RPNCalculateFactorialTest.cs" />
+    <Compile Include="RPNCalculatorExponentialTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RPNCalculatorRefactor\RPNCalculatorRefactor.csproj">

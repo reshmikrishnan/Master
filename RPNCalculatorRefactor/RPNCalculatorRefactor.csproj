@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Add.cs" />
+    <Compile Include="Exponential.cs" />
     <Compile Include="Factorial.cs" />
     <Compile Include="ICalculate.cs" />
     <Compile Include="IRPNCalculator.cs" />

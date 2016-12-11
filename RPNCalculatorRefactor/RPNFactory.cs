@@ -15,6 +15,7 @@ namespace RPNCalculatorRefactor
             op.Add("-", new Substract());
             op.Add("*", new Multipy());
             op.Add("!", new Factorial());
+            op.Add("^", new Exponential());
         }
 
         public static ICalculate GetOperator(string operators)
