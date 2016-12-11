@@ -18,17 +18,11 @@ namespace RPNCalculatorRefactor
         {
             float number;
             number = input;
-            
-            
-            for (int i = input - 1; i >= 1; i--)
 
-            {
 
-                fact = fact * i;
 
-            }
 
-            return 
+            return 0;
         }
     }
 }
