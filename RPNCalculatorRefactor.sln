@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPNCalculatorRefactor", "RPNCalculatorRefactor\RPNCalculatorRefactor.csproj", "{63ABAE3D-8A3F-4208-A222-8A8F7C59FEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPNCalcualtionRefactor", "RPNCalcualtionRefactor\RPNCalcualtionRefactor.csproj", "{AE8EAA4C-C79F-47F5-9780-2C7C72688692}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63ABAE3D-8A3F-4208-A222-8A8F7C59FEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63ABAE3D-8A3F-4208-A222-8A8F7C59FEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63ABAE3D-8A3F-4208-A222-8A8F7C59FEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63ABAE3D-8A3F-4208-A222-8A8F7C59FEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE8EAA4C-C79F-47F5-9780-2C7C72688692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE8EAA4C-C79F-47F5-9780-2C7C72688692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE8EAA4C-C79F-47F5-9780-2C7C72688692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE8EAA4C-C79F-47F5-9780-2C7C72688692}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
